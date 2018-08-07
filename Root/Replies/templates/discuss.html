@@ -1,0 +1,116 @@
+
+{% include "home_t.html" %}
+
+{% block content %}
+
+
+<div class="container topclose">
+    <table class="table">
+        <tbody>
+        <tr class="warning"> <td> <b>Subject:</b> <br>  {{ subjectText }} </td></tr>
+            <tr class="info"> <td><b>Description:</b> <br> {{ messageText }} </td></tr>
+             <tr class="warning"> <td>
+                 <div id ="postButton" >
+                 <a href="#"  onclick="javascript:showPostTextBox('showPostBox', {{ subjectId }});return false;" class="btn btn-primary  btn"> &crarr; Post Comments </a>
+             </div>
+            <div id ="postTextBox" style="display:none;"></div>
+
+             </td></tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+<div class="container">
+  {% for message in messages %}
+    {% if message.is_branched == 0 %}
+  <div class="panel panel-primary">
+        <div class="panel-heading">
+          <span class="label label-default">{{ message.userName }} </span>
+          <span class="label label-primary"> {{ message.dateTo }}  </span>
+            <span class="label label-primary">
+
+                <a href="#"  onclick="javascript:showPostTextBox('showReplyPostBox', {{ message.messageId }});return false;" class="btn btn-success  btn-sm">
+
+                        &crarr; Reply
+
+                    </a>
+
+          </span>
+        </div>
+        <div class="panel-body">{{ message.messageText }}</div>
+         <div class="container" id ="showReplyPostBox_{{ message.messageId }}" style="display:none;"></div>
+  </div>
+    {% else %}
+   <div class="container replyContainer">
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+          <span class="label label-default">{{ message.userName }} </span>
+          <span class="label label-primary"> {{ message.dateTo }}  </span>
+        </div>
+        <div class="panel-body">{{ message.messageText }}</div>
+  </div>
+     {% for imessage in message.branchMessages %}
+        {% if message.counter.count < message.branchMessageCount %}
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <span class="label label-default">{{ imessage.userName }} </span>
+                <span class="label label-primary"> {{ imessage.dateTo }}  </span>
+            </div>
+            <div class="panel-body">{{ imessage.bMessageText }}  </div>
+        </div>
+            {{ message.counter.increment }}
+        {% else %}
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <span class="label label-default">{{ imessage.userName }} </span>
+                <span class="label label-primary"> {{ imessage.dateTo }}  </span>
+                <span class="label label-primary">
+
+                    <a href="#"  onclick="javascript:showPostTextBox('showReplyPostBox', {{ message.branchRootId }});return false;" class="btn btn-success  btn-sm">
+
+                        &crarr; Reply
+
+                    </a>
+
+                </span>
+
+            </div>
+            <div class="panel-body">{{ imessage.bMessageText }}  </div>
+
+            <div class="container" id ="showReplyPostBox_{{ message.branchRootId }}" style="display:none;"></div>
+        </div>
+        {% endif %}
+     {% endfor %}
+   </div>
+    {% endif %}
+
+    {% if message.messageId  == openBranchId %}
+        <div class="container">
+            <div class = "form-group">
+                <div class = "col-sm-5">
+                    <textarea class="form-control" rows="10" id="content" name="content"></textarea>
+                </div>
+            </div>
+            <div class = "form-group">
+                <div class = "col-sm-16">
+                    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+                    <input type='hidden' id="orgCode" name='orgCode' value='{{orgCode}}' />
+                    <input type='hidden' id="subjectId" name='subjectId' value='{{subjectId}}' />
+                    <input type='hidden' id="messageId" name='messageId' value='{{message.messageId}}' />
+                    <input type='hidden' id="userName" name='userName' value='{{message.userName}}' />
+                    <input type='hidden' id="pMessageId" name='pMessageId' value='{{messageId}}' />
+                    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:postBranchContent();return false;" >Submit</button>
+                </div>
+            </div>
+        </div>
+
+    {% endif %}
+  {% endfor %}
+</div>
+
+
+</div>
+    {% endblock %}
+

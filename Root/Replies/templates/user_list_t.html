@@ -1,0 +1,63 @@
+{% extends "manage_users.html" %}
+{% block userSection %}
+<div id="stalePageContent">
+  <table class="table table-hover" border="1">
+    <thead>
+      <tr>
+          <th><u>Login Name</u></font></th>
+          <th><u>Email</u></th>
+          <th><u>User Role</u></th>
+          <th align="center" style="text-align:center"><u>Actions</u></th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for user in users %}
+      <tr>
+          <td ><font size="1">{{ user.userName}}</font></td>
+          <td><font size="1">{{ user.userEmail}}</font></td>
+          <td>  <font size="1">
+                {% if   user.userRole == 0 %}
+                        ADMIN
+                {%  else    %}
+                        USER
+                {% endif %}
+                </font>
+          </td>
+
+          <td>
+              <table>
+                  <tr>
+
+                     <td>
+                            <form action="/replies/users/modify" method="GET">
+                                <input type="hidden" name="userId" value="{{ user.userId}}" />
+                                <input type="hidden" name="orgCode" value="{{ user.orgCode}}" />
+                                <b> <font color="green"> <input  class="btn btn-success"   type="submit" value="Modify" /> </font>  </b>
+                            </form>
+                      </td>
+                      <td>
+                            <form action="/replies/users/delete" method="GET">
+                                 <input type="hidden" name="userId" value="{{ user.userId}}" />
+                                <input type="hidden" name="orgCode" value="{{ user.orgCode}}" />
+                                <b> <font color="red"> <input  class="btn btn-danger"  type="submit" value="Delete" /> </font>  </b>
+                            </form>
+                      </td>
+                      <td>
+                            <form action="/replies/users/chuser" method="GET">
+                                <input type="hidden" name="userId" value="{{ user.userId}}" />
+                                <input type="hidden" name="orgCode" value="{{ user.orgCode}}" />
+                                <b> <font color="blue"> <input class="btn btn-warning" type="submit" value="Change privalage" /> </font>  </b>
+                            </form>
+                      </td>
+                  </tr>
+
+              </table>
+          </td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

@@ -1,0 +1,408 @@
+04:57:44.406 [DEBUG] [org.gradle.api.Project] Checking if the task lrgMetadataZip already exist.
+04:57:44.408 [DEBUG] [org.gradle.api.Project] lrgMetadataZip already exist.
+04:57:44.409 [DEBUG] [org.gradle.api.Project] Configuring the EMTest task with default values.
+04:57:44.411 [DEBUG] [org.gradle.api.Project] Project property ENABLE_CC is not found.
+04:57:44.413 [DEBUG] [org.gradle.api.Project] Checking if there is environment variable for property, ENABLE_CC and it is set.
+04:57:44.414 [DEBUG] [org.gradle.api.Project] Checking if the environment variable, ENABLE_CC is set.
+04:57:44.416 [DEBUG] [org.gradle.api.Project] Checking testinfra.jacoco.enabled for backward compatibility.
+04:57:44.418 [DEBUG] [org.gradle.api.Project] Project property, testinfra.jacoco.enabled is set to true
+04:57:44.420 [DEBUG] [org.gradle.api.Project] Value of testinfra.jacoco.enabled is true
+04:57:44.422 [DEBUG] [org.gradle.api.Project] Configuring jacoco for the project.
+04:57:44.424 [DEBUG] [org.gradle.api.Project] Checking if the plugin, jacoco is already applied.
+04:57:44.426 [DEBUG] [org.gradle.api.Project] Applying plugin, jacoco
+04:57:44.428 [DEBUG] [org.gradle.api.Project] Verifying if the plugin is applied.
+04:57:44.429 [DEBUG] [org.gradle.api.Project] Successfully applied plugin, jacoco
+04:57:44.431 [DEBUG] [org.gradle.api.Project] Project property ENABLE_CC is not found.
+04:57:44.433 [DEBUG] [org.gradle.api.Project] Checking if there is environment variable for property, ENABLE_CC and it is set.
+04:57:44.434 [DEBUG] [org.gradle.api.Project] Checking if the environment variable, ENABLE_CC is set.
+04:57:44.434 [DEBUG] [org.gradle.api.Project] Checking testinfra.jacoco.enabled for backward compatibility.
+04:57:44.435 [DEBUG] [org.gradle.api.Project] Project property, testinfra.jacoco.enabled is set to true
+04:57:44.436 [DEBUG] [org.gradle.api.Project] Value of testinfra.jacoco.enabled is true
+04:57:44.438 [DEBUG] [org.gradle.api.Project] Project property PUBLISH_CC is not found.
+04:57:44.439 [DEBUG] [org.gradle.api.Project] Checking if there is environment variable for property, PUBLISH_CC and it is set.
+04:57:44.442 [DEBUG] [org.gradle.api.Project] Checking if the environment variable, PUBLISH_CC is set.
+04:57:44.442 [INFO] [org.gradle.api.Project] Sonar publishing is disabled. Returning.
+04:57:44.443 [DEBUG] [org.gradle.api.Project] TestInfraPlugin is not applied in context of <lrg>.gradle, skipping the check.
+04:57:44.445 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Configuring buildInfo task for project :plugins:DevInfraPlugin:DevInfraSDK: is root? false
+04:57:44.447 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Using Artifactory Plugin for :plugins:DevInfraPlugin:DevInfraSDK
+04:57:44.455 [DEBUG] [org.gradle.testing.jacoco.plugins.JacocoPluginExtension_Decorated] Applying Jacoco to test
+04:57:44.513 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for script '/scratch/shnanjun/git_storage/emdi-7713/common/scripts/allprojects.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/allprojects_5rfo662hjdibm3dih7cfgqpqm0/DefaultScript/buildscript).
+04:57:44.515 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:44.522 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for script '/scratch/shnanjun/git_storage/emdi-7713/common/scripts/allprojects.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/allprojects_5rfo662hjdibm3dih7cfgqpqm0/DefaultScript/no_buildscript).
+04:57:44.524 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:44.980 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:45.093 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/chef-repo with patternSet{ includes: [*.mf] excludes: [] }
+04:57:45.112 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] [ant:delete] Deleting /scratch/shnanjun/git_storage/emdi-7713/chef-repo/chef-repo_1.0.0-20160422044405.mf
+04:57:45.345 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:45.396 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/emaasjetuiutil with patternSet{ includes: [*.mf] excludes: [] }
+04:57:45.515 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:45.536 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/emaasloginutl with patternSet{ includes: [*.mf] excludes: [] }
+04:57:45.649 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:45.666 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/emcsmonitor with patternSet{ includes: [*.mf] excludes: [] }
+04:57:45.824 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:45.830 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/emcssanity with patternSet{ includes: [*.mf] excludes: [] }
+04:57:45.948 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:45.960 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/emcsuiutl with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.043 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.049 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/integtest with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.117 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.136 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/nlstest with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.208 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.214 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/plugins with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.331 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.343 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/qatools with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.419 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.426 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/qatoolsoswebdriver with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.474 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.482 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/samples with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.483 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] [ant:delete] Deleting /scratch/shnanjun/git_storage/emdi-7713/samples/samples_1.0.0-20160422044405.mf
+04:57:46.525 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.531 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/tools with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.533 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] [ant:delete] Deleting /scratch/shnanjun/git_storage/emdi-7713/tools/tools_1.0.0-20160422044405.mf
+04:57:46.579 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.587 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/utl with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.590 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] [ant:delete] Deleting /scratch/shnanjun/git_storage/emdi-7713/utl/utl_1.0.0-20160422044405.mf
+04:57:46.629 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.635 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.682 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.691 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/plugins/JSPlugin with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.744 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.753 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/plugins/SamplePlugin with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.792 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.799 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/plugins/TestInfraPlugin with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.870 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.876 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/samples/TestInfraPluginTests with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.913 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.921 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/samples/lrgtest with patternSet{ includes: [*.mf] excludes: [] }
+04:57:46.962 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:46.968 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/samples/webdriver with patternSet{ includes: [*.mf] excludes: [] }
+04:57:47.023 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:47.032 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/tools/JiraWebServices with patternSet{ includes: [*.mf] excludes: [] }
+04:57:47.077 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:47.086 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/tools/ParseLrg with patternSet{ includes: [*.mf] excludes: [] }
+04:57:47.132 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:47.139 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/tools/jirasso-library with patternSet{ includes: [*.mf] excludes: [] }
+04:57:47.178 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:47.187 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/tools/lrgmanager with patternSet{ includes: [*.mf] excludes: [] }
+04:57:47.234 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] parsing buildfile jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml with URI = jar:file:/ade_autofs/ade_infra/nfsdo/GRADLE/1.12/GENERIC/150819.2240/gradle/lib/ant-1.9.3.jar!/org/apache/tools/ant/antlib.xml from a zip file
+04:57:47.249 [DEBUG] [org.gradle.api.internal.project.ant.AntLoggingAdapter] fileset: Setup scanner in dir /scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/DevInfraSDK with patternSet{ includes: [*.mf] excludes: [] }
+04:57:47.349 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for script '/scratch/shnanjun/git_storage/emdi-7713/common/scripts/cbf-zip.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/cbf_zip_18762r3hooh34u9abvqu9tsds6/DefaultScript/buildscript).
+04:57:47.351 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.355 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for script '/scratch/shnanjun/git_storage/emdi-7713/common/scripts/cbf-zip.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/cbf_zip_18762r3hooh34u9abvqu9tsds6/DefaultScript/no_buildscript).
+04:57:47.357 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.387 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 37.221 secs
+04:57:47.465 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:47.469 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:47.566 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:47.570 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:47.594 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:47.611 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':chef-repo' using build file '/scratch/shnanjun/git_storage/emdi-7713/chef-repo/build.gradle'.
+04:57:47.615 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/chef-repo/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_3uck0vq3djf245bgd1i5uj1im4/ProjectScript/buildscript).
+04:57:47.617 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.622 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/chef-repo/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_3uck0vq3djf245bgd1i5uj1im4/ProjectScript/no_buildscript).
+04:57:47.624 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.653 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.04 secs
+04:57:47.690 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:47.694 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:47.706 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:47.708 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:47.711 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:47.723 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':emaasjetuiutil' using build file '/scratch/shnanjun/git_storage/emdi-7713/emaasjetuiutil/build.gradle'.
+04:57:47.726 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emaasjetuiutil/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_4m9eku9emvj174ivliu877i11i/ProjectScript/buildscript).
+04:57:47.734 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.737 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emaasjetuiutil/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_4m9eku9emvj174ivliu877i11i/ProjectScript/no_buildscript).
+04:57:47.738 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.812 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.088 secs
+04:57:47.826 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:47.829 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:47.834 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:47.843 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:47.845 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:47.859 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':emaasloginutl' using build file '/scratch/shnanjun/git_storage/emdi-7713/emaasloginutl/build.gradle'.
+04:57:47.862 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emaasloginutl/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_39luoor4a75becj4stnc5pf6nn/ProjectScript/buildscript).
+04:57:47.867 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.871 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emaasloginutl/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_39luoor4a75becj4stnc5pf6nn/ProjectScript/no_buildscript).
+04:57:47.872 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.913 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.052 secs
+04:57:47.920 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:47.922 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:47.929 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:47.930 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:47.932 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:47.938 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':emcsmonitor' using build file '/scratch/shnanjun/git_storage/emdi-7713/emcsmonitor/build.gradle'.
+04:57:47.940 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emcsmonitor/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_17bdmo3162e8c8ta543re7459h/ProjectScript/buildscript).
+04:57:47.942 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.945 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emcsmonitor/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_17bdmo3162e8c8ta543re7459h/ProjectScript/no_buildscript).
+04:57:47.947 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.982 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':integtest' using build file '/scratch/shnanjun/git_storage/emdi-7713/integtest/build.gradle'.
+04:57:47.984 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/integtest/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_n7cqurd0qgq55u0qjpusrmsne/ProjectScript/buildscript).
+04:57:47.986 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:47.989 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/integtest/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_n7cqurd0qgq55u0qjpusrmsne/ProjectScript/no_buildscript).
+04:57:47.990 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.031 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':emcsuiutl' using build file '/scratch/shnanjun/git_storage/emdi-7713/emcsuiutl/build.gradle'.
+04:57:48.034 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emcsuiutl/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_47i16ooqv8885lbsq4sgh3t33b/ProjectScript/buildscript).
+04:57:48.036 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.038 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emcsuiutl/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_47i16ooqv8885lbsq4sgh3t33b/ProjectScript/no_buildscript).
+04:57:48.040 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.075 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.041 secs
+04:57:48.082 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.084 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.090 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.092 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.095 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.100 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.117 secs
+04:57:48.108 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.110 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.117 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.119 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.121 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.123 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.184 secs
+04:57:48.130 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.131 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.137 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.138 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.141 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.146 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':emcssanity' using build file '/scratch/shnanjun/git_storage/emdi-7713/emcssanity/build.gradle'.
+04:57:48.149 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emcssanity/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6nt7lecjvhrblhlirio6tms1kf/ProjectScript/buildscript).
+04:57:48.150 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.153 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/emcssanity/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6nt7lecjvhrblhlirio6tms1kf/ProjectScript/no_buildscript).
+04:57:48.155 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.193 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.045 secs
+04:57:48.199 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.201 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.206 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.208 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.211 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.221 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':nlstest' using build file '/scratch/shnanjun/git_storage/emdi-7713/nlstest/build.gradle'.
+04:57:48.224 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/nlstest/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_rjcq3j07bqo8kh9vcmrcmjmi4/ProjectScript/buildscript).
+04:57:48.226 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.229 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/nlstest/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_rjcq3j07bqo8kh9vcmrcmjmi4/ProjectScript/no_buildscript).
+04:57:48.230 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.278 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.055 secs
+04:57:48.284 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.286 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.291 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.294 [DEBUG] [org.gradle.api.Project] Updating the jar task, integTestJar.
+04:57:48.299 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.306 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':plugins' using build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/build.gradle'.
+04:57:48.308 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_2dlu8ak3981n217tfs101fk27h/ProjectScript/buildscript).
+04:57:48.310 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.312 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_2dlu8ak3981n217tfs101fk27h/ProjectScript/no_buildscript).
+04:57:48.314 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.333 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.026 secs
+04:57:48.343 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.344 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.351 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.353 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.356 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.361 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':qatools' using build file '/scratch/shnanjun/git_storage/emdi-7713/qatools/build.gradle'.
+04:57:48.364 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/qatools/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_10gfkif3gnfae3e19ecgngjhma/ProjectScript/buildscript).
+04:57:48.366 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.368 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/qatools/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_10gfkif3gnfae3e19ecgngjhma/ProjectScript/no_buildscript).
+04:57:48.370 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.393 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.03 secs
+04:57:48.400 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.402 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.407 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.409 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.412 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.418 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':qatoolsoswebdriver' using build file '/scratch/shnanjun/git_storage/emdi-7713/qatoolsoswebdriver/build.gradle'.
+04:57:48.421 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/qatoolsoswebdriver/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_53e06hh62ivj8451ersbvb7d34/ProjectScript/buildscript).
+04:57:48.422 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.425 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/qatoolsoswebdriver/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_53e06hh62ivj8451ersbvb7d34/ProjectScript/no_buildscript).
+04:57:48.427 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.457 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.038 secs
+04:57:48.464 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.465 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.471 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.473 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.475 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.481 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':samples' using build file '/scratch/shnanjun/git_storage/emdi-7713/samples/build.gradle'.
+04:57:48.483 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/samples/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_703asnvn69sb4aj708vpi4ijiq/ProjectScript/buildscript).
+04:57:48.485 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.488 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/samples/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_703asnvn69sb4aj708vpi4ijiq/ProjectScript/no_buildscript).
+04:57:48.489 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.593 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.111 secs
+04:57:48.612 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.614 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.619 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.621 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.623 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.629 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':tools' using build file '/scratch/shnanjun/git_storage/emdi-7713/tools/build.gradle'.
+04:57:48.631 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_j9grp0gpo04fpjea646jv2bcj/ProjectScript/buildscript).
+04:57:48.633 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.636 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_j9grp0gpo04fpjea646jv2bcj/ProjectScript/no_buildscript).
+04:57:48.638 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.653 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.022 secs
+04:57:48.667 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.670 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.678 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.680 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.684 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.691 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':utl' using build file '/scratch/shnanjun/git_storage/emdi-7713/utl/build.gradle'.
+04:57:48.694 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/utl/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6kpnnpspt1q3pqiblim9frpohf/ProjectScript/buildscript).
+04:57:48.696 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.699 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/utl/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6kpnnpspt1q3pqiblim9frpohf/ProjectScript/no_buildscript).
+04:57:48.700 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.726 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.033 secs
+04:57:48.736 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.738 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.746 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.748 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.751 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.762 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':plugins:DevInfraPlugin' using build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/build.gradle'.
+04:57:48.765 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_57npbv2815g0p9m4rog819mjou/ProjectScript/buildscript).
+04:57:48.767 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.770 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_57npbv2815g0p9m4rog819mjou/ProjectScript/no_buildscript).
+04:57:48.771 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.800 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.036 secs
+04:57:48.812 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:48.813 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:48.826 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:48.828 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:48.831 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:48.843 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':plugins:JSPlugin' using build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/JSPlugin/build.gradle'.
+04:57:48.846 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/JSPlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_63eg5q1nh9b0t2sn873jfgtte0/ProjectScript/buildscript).
+04:57:48.849 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:48.853 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/JSPlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_63eg5q1nh9b0t2sn873jfgtte0/ProjectScript/no_buildscript).
+04:57:48.855 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.025 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.181 secs
+04:57:49.041 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.043 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.050 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.057 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.060 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.071 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':plugins:SamplePlugin' using build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/SamplePlugin/build.gradle'.
+04:57:49.074 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/SamplePlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_2vng13rjj8353746998dp53g3q/ProjectScript/buildscript).
+04:57:49.075 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.080 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/SamplePlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_2vng13rjj8353746998dp53g3q/ProjectScript/no_buildscript).
+04:57:49.082 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.108 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.035 secs
+04:57:49.132 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.134 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.142 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.144 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.146 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.152 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':plugins:TestInfraPlugin' using build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/TestInfraPlugin/build.gradle'.
+04:57:49.155 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/TestInfraPlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_2lre3njt067jdjip5sclg3u6fu/ProjectScript/buildscript).
+04:57:49.156 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.161 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/TestInfraPlugin/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_2lre3njt067jdjip5sclg3u6fu/ProjectScript/no_buildscript).
+04:57:49.163 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.175 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for script '/scratch/shnanjun/git_storage/emdi-7713/plugins/TestInfraPlugin/test.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/test_6am3al9k4gt84nklnj1vah8gd4/DefaultScript/buildscript).
+04:57:49.176 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.179 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for script '/scratch/shnanjun/git_storage/emdi-7713/plugins/TestInfraPlugin/test.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/test_6am3al9k4gt84nklnj1vah8gd4/DefaultScript/no_buildscript).
+04:57:49.181 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.250 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':tools:JiraWebServices' using build file '/scratch/shnanjun/git_storage/emdi-7713/tools/JiraWebServices/build.gradle'.
+04:57:49.253 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/JiraWebServices/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_143qt8nudqo98g10clsra5pjqb/ProjectScript/buildscript).
+04:57:49.254 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.257 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/JiraWebServices/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_143qt8nudqo98g10clsra5pjqb/ProjectScript/no_buildscript).
+04:57:49.259 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.293 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':tools:jirasso-library' using build file '/scratch/shnanjun/git_storage/emdi-7713/tools/jirasso-library/build.gradle'.
+04:57:49.296 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/jirasso-library/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6h7nmhr460kps40brfrj1lcmbk/ProjectScript/buildscript).
+04:57:49.297 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.300 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/jirasso-library/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6h7nmhr460kps40brfrj1lcmbk/ProjectScript/no_buildscript).
+04:57:49.302 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.334 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.039 secs
+04:57:49.341 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.343 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.350 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.351 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.352 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.356 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':tools:ParseLrg' using build file '/scratch/shnanjun/git_storage/emdi-7713/tools/ParseLrg/build.gradle'.
+04:57:49.365 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/ParseLrg/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6js37pgqja6fesd1ljbqbheg1c/ProjectScript/buildscript).
+04:57:49.371 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.373 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/ParseLrg/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_6js37pgqja6fesd1ljbqbheg1c/ProjectScript/no_buildscript).
+04:57:49.373 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.404 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.047 secs
+04:57:49.409 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.409 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.416 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.416 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.418 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.426 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.174 secs
+04:57:49.432 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.433 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.440 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.440 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.441 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.452 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':tools:lrgmanager' using build file '/scratch/shnanjun/git_storage/emdi-7713/tools/lrgmanager/build.gradle'.
+04:57:49.453 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/lrgmanager/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_472643rg1d72aqkf0dpv4808qj/ProjectScript/buildscript).
+04:57:49.454 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.455 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/tools/lrgmanager/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_472643rg1d72aqkf0dpv4808qj/ProjectScript/no_buildscript).
+04:57:49.456 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.484 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.032 secs
+04:57:49.489 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.490 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.496 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.496 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.497 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.507 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.354 secs
+04:57:49.522 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.523 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.529 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.530 [DEBUG] [org.gradle.api.Project] Updating the jar task, integTestJar.
+04:57:49.531 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.535 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':samples:TestInfraPluginTests' using empty build file.
+04:57:49.537 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.001 secs
+04:57:49.542 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.543 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.549 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.551 [DEBUG] [org.gradle.api.Project] Updating the jar task, integTestJar.
+04:57:49.553 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.558 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':samples:lrgtest' using build file '/scratch/shnanjun/git_storage/emdi-7713/samples/lrgtest/build.gradle'.
+04:57:49.569 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/samples/lrgtest/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_5fhr8d4qi8cfvukjgcidhsrccu/ProjectScript/buildscript).
+04:57:49.570 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.571 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/samples/lrgtest/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_5fhr8d4qi8cfvukjgcidhsrccu/ProjectScript/no_buildscript).
+04:57:49.572 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.573 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.015 secs
+04:57:49.581 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.582 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.598 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.599 [DEBUG] [org.gradle.api.Project] Updating the jar task, integTestJar.
+04:57:49.600 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.604 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':samples:webdriver' using build file '/scratch/shnanjun/git_storage/emdi-7713/samples/webdriver/build.gradle'.
+04:57:49.605 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/samples/webdriver/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_451vqvuek1i7og8p4292uhsn8s/ProjectScript/buildscript).
+04:57:49.606 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.608 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/samples/webdriver/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_451vqvuek1i7og8p4292uhsn8s/ProjectScript/no_buildscript).
+04:57:49.608 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.624 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.019 secs
+04:57:49.631 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.631 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.643 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.644 [DEBUG] [org.gradle.api.Project] Updating the jar task, integTestJar.
+04:57:49.645 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.649 [INFO] [org.gradle.configuration.project.BuildScriptProcessor] Evaluating project ':plugins:DevInfraPlugin:DevInfraSDK' using build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/DevInfraSDK/build.gradle'.
+04:57:49.651 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/DevInfraSDK/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_27rv7dp6ql072lbmkg80rboiko/ProjectScript/buildscript).
+04:57:49.651 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.652 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire shared lock on no_buildscript class cache for build file '/scratch/shnanjun/git_storage/emdi-7713/plugins/DevInfraPlugin/DevInfraSDK/build.gradle' (/scratch/shnanjun/gradle_user_home/caches/1.12/scripts/build_27rv7dp6ql072lbmkg80rboiko/ProjectScript/no_buildscript).
+04:57:49.653 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired.
+04:57:49.682 [DEBUG] [org.gradle.configuration.project.BuildScriptProcessor] Timing: Running the build script took 0.032 secs
+04:57:49.688 [DEBUG] [org.gradle.api.Project] Project property, emdi.T_WORK is set to /scratch/shnanjun/git_storage/emdi-7713/oracle/work
+04:57:49.690 [DEBUG] [org.gradle.api.Project] Project property, emdi.EM_ADE_ENV is set to 0
+04:57:49.701 [INFO] [org.gradle.api.Project] There are no tasks of type EMTest.
+04:57:49.702 [DEBUG] [org.gradle.api.Project] No sourceSet with name integTest found.
+04:57:49.704 [DEBUG] [org.gradle.api.Project] No jar task found for the sourceSet, test.
+04:57:49.705 [INFO] [org.gradle.BuildLogger] All projects evaluated.
+04:57:49.760 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.765 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.766 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.767 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.767 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.768 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.769 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.769 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.770 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.770 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.771 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.772 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.773 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.773 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.774 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.775 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.777 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.777 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.778 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.778 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.779 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.790 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual
+04:57:49.791 [DEBUG] [org.jfrog.gradle.plugin.artifactory.ArtifactoryPluginBase] Artifactory URL: http://artifactory.oraclecorp.com/artifactory/emaas-virtual

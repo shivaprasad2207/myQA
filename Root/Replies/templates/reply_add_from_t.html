@@ -1,0 +1,36 @@
+            {% if FLAG == 'SHOW_MSG_ADD' %}
+            <div class = "form-group">
+                <div class = "col-sm-5">
+                    <textarea class="form-control" rows="10" id="content" name="content"></textarea>
+                </div>
+            </div>
+            <div class = "form-group">
+                <div class = "col-sm-16">
+                    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+                    <input type='hidden' id="subjectId" name='subjectId' value='{{subjectId}}' />
+                    <input type='hidden' id="messageId" name='messageId' value='{{messageId}}' />
+
+                    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:postContent();return false;" >Submit</button>
+                    <button type="submit" id="subButton" class="btn btn-danger" onclick="javascript:refreshListPage({{messageId}},{{subjectId}});return false;" >Cancel</button>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if FLAG == 'SHOW_BRANCH_MSG_ADD' %}
+             <div class = "form-group">
+                <div class = "col-sm-5">
+                    <textarea class="form-control" rows="10" id="content" name="content"></textarea>
+                </div>
+            </div>
+            <div class = "form-group">
+                <div class = "col-sm-16">
+                    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+                    <input type='hidden' id="branchRootMessageId" name='branchRootMessageId' value='{{branchRootMessageId}}' />
+                    <input type='hidden' id="rootMessageId" name='rootMessageId' value='{{rootMessageId}}' />
+                    <input type='hidden' id="subjectId" name='subjectId' value='{{subjectId}}' />
+                    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:postBranchContent();return false;" >Submit</button>
+                    <button type="submit" id="subButton" class="btn btn-danger" onclick="javascript:refreshListPage({{rootMessageId}},{{subjectId}});return false;" >Cancel</button>
+
+                </div>
+            </div>
+            {% endif %}

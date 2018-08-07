@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block login %}
+
+<nav class="navbar navbar-inverse main-nav">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+</nav>
+<div class="jumbotron text-center log-section" >
+<div class="clear-top">
+
+<form class = "form-inline" role = "form" id="userRegForm">
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Library Code</label>
+      <div class = "col-sm-4">
+         <input type = "text" class = "form-control" name="orgCode"  id ="orgCode" placeholder = "Enter Library Code" required>
+      </div>
+   </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-3 control-label">Login Name</label>
+      <div class = "col-sm-3">
+         <input type = "text" class = "form-control" name="userName"  id ="userName" placeholder = "Enter Login Name" required>
+      </div>
+   </div>
+
+   <div class = "form-group">
+      <label for = "inputPassword" class = "col-sm-4 control-label">Password</label>
+
+      <div class = "col-sm-4">
+         <input type = "password" class = "form-control" id="password" name="password" placeholder = "Enter Your Password" required>
+      </div>
+   </div>
+
+    <div class = "form-group">
+        <div class = "col-sm-3">
+    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:userLogin();return false;" >Submit</button>
+        </div>
+
+    </div>
+
+</form>
+</div>
+
+    <div id="disp"> </div><br>
+   <div class = "col-sm-10">
+             <a href="/replies/registerNewUser/"> <u> New User </u></a>
+    </div>
+
+    <div class = "col-sm-10">
+             <a href="/replies/registerNewOrg/"> <u> Register new Library </u></a>
+    </div>
+
+</div>
+
+<font size="1"><b>**It is Demo App using the Python Django Stack It is for Training and Education purpose and not for Commercial</b></font>
+<br><font size="1"><b><u>Git Repo : https://github.com/shivaprasad2207/softLib.git</u></b></font>
+
+<div style="color:green;font-size=small">
+
+    <p><b> <font color="blue">About App: </font> </b></p>
+    It is book library management tool. Here book library instance is created using the basic details like admin email id
+    and address and phone number.<br>
+    Once registered, it will it will give him/her a Pin which will be identifier for login to his library.
+    Later he can add books and users who wants to join his/her library.
+    <br><br> <font color="blue"> Admin Roles:</font>
+    Admin can manage user by add/modify/delete. In the book management admin can add book by creating category/subcategory.<br>
+    Admin can add number of copies available for that book, it will provide identifier for each of book copy.
+    By clicking the copy identifier the user can reserv books. <br>
+    Admin can do many search operation like per user as how many books reserved and also per book how many copies booked.<br>
+    Admin can see expired reservation list to alert the user.
+    <br><font color="blue"> User Roles:</font> User can search the book and reserve copy of it, he can see dates of reservation
+    the other users.
+    <br><br> <font color="blue"> Use Demo instance :</font><br>
+    Library Code: wojfdkb5 <br>
+    Admin Login Id is nnsprasad<br>
+    Admin Password : abc123<br>
+    User Pin: gH04jCwL<br>
+    User Password: gH04jCwL<br>
+   <font color="blue"> You can Try:</font> Try creating your own instance of library, add books and users.
+ <br><br>
+
+<a href="http://www.shivaprasad.info" target="_blank"><b><u><font color="blue">&copy;Author</font></u></b></a>
+</div>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends "home_t.html" %}
+{% block navigation %}
+
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+
+<div class="topnav">
+<a href="/replies/users/list" >User List </a>
+<a href="#" >Add user </a>
+<div class="search-container">
+    <form action="/replies/users/search" method="GET">
+      <input type="text" placeholder="Search user.." name="search" id="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+
+{% block userSection %}  {% endblock %}
+
+
+<div class="container-fluid text-center">
+  <div class="row content">
+    <div class="col-sm-8 text-center">
+
+        <div id="catShow">
+
+        </div>
+        <div id="message">
+
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}
+

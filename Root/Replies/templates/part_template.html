@@ -1,0 +1,48 @@
+
+{% if section == 'SHOW_SUBCATEGORY_OPTION' %}
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Select Sub Category</label>
+      <div class = "col-sm-5">
+          <select  onchange="javascript:getRemainingReplyContentFrom();return false;" id="subCategoryId">
+              <option value="-1">   </option>
+            {% for category in subCategories %}
+              <option value="{{category.subCategoryId }}"> {{ category.subCategory }} </option>
+            {% endfor %}
+          </select>
+     </div>
+    </div>
+{% endif %}
+
+
+{% if section == 'SHOW_REST_OF_REPLY_CONTENT_FORM' %}
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Subject</label>
+      <div class = "col-sm-5">
+        <input type ="text" class ="form-control" id="subject" name="subject" placeholder ="Enter Subject" required>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Content</label>
+      <div class = "col-sm-5">
+          <textarea class="form-control" rows="10" id="content" name="content"></textarea>
+     </div>
+    </div>
+
+
+    <div class = "form-group">
+        <div class = "col-sm-10">
+    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+    <input type='hidden' id="orgCode" name='orgCode' value='{{orgCode}}' />
+    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:addContent();return false;" >Submit</button>
+        </div>
+    </div>
+
+{% endif %}
+
+{% if section == 'SHOW_BOOK_SEARCH_FORM' %}
+
+
+
+{% endif %}

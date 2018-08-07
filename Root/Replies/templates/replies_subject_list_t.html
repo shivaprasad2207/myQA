@@ -1,0 +1,56 @@
+
+{% include "home_t.html" %}
+{% block content %}
+
+<div id="stalePageContent">
+  <table class="table table-hover" border="1">
+    <thead>
+      <tr>
+          <th><u>Subject</u></font></th>
+          <th><u>Date</u></font></th>
+          <th><u>User</u></font></th>
+          <th align="center" style="text-align:center"><u>Actions</u></th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for subject in subjects %}
+      <tr>
+          <td ><font size="1">
+                    <a href="/replies/reply/subject?messageId={{subject.messageId}}&subjectId={{subject.subjectId}}">
+                        {{ subject.category }} -> {{ subject.subCategory }} -> {{ subject.subjectText }}
+                    </a>
+              </font>
+          </td>
+          <td ><font size="1">{{ subject.dateTo }} </font></td>
+          <td ><font size="1">{{ subject.userName }} </font></td>
+          <td>
+              <table>
+                  <tr>
+
+                     <td>
+                         <a class="btn btn-success" href="/replies/reply/subject?messageId={{subject.messageId}}&subjectId={{subject.subjectId}}">
+                            Expand
+                         </a>
+                      </td>
+
+                      {% if userRole == 0 %}
+                      <td>
+                            <a class="btn btn-danger" onclick="javascript:deleteSubject( '{{subject.messageId}}',  '{{subject.subjectId}}' );return false;" >
+                            Delete
+                         </a>
+                      </td>
+                      {% endif %}
+
+                  </tr>
+
+              </table>
+          </td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+{% endblock %}

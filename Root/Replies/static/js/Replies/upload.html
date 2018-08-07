@@ -1,0 +1,32 @@
+
+ 
+  
+<form id="profile_add_form" method="post" action="index.pl" enctype="multipart/form-data">
+
+                     <b> Upload your New Photo </b>
+
+	                   <input type="file" name="upfile"> <br><br>
+
+			   <input type="hidden" value="ModifiedProfileData" id="fname" name="AppParam" size="60">
+
+
+
+<input type="submit" value="update profile"> &nbsp&nbsp<div id="from_load"> </div>
+
+</form>
+
+ my $upfile = $cgi->param('upfile');
+    my %hash = $cgi->Vars;
+    $hash{uname} = $name;
+    my ($photo, $member_id) = @hash{'photo_name','member_id' };
+    if ( $hash{fname} =~ /\w/ && $hash{lname} =~ /\w/){
+        if ($hash{upfile} =~ /\w/){ #New Phot Added
+            no strict 'refs';
+            my $OUTFILE; 
+            open($OUTFILE, ">", "C:/Program Files (x86)/Apache Group/Apache2/htdocs/static/images/My-Comm/photos/$photo")
+               || die "can't open UTF-8 encoded filename: $!";
+            binmode($OUTFILE);    
+            while (<$upfile>){
+               print $OUTFILE $_;
+            } 
+        }

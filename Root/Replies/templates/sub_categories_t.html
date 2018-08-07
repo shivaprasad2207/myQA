@@ -1,0 +1,91 @@
+
+{% extends "categories_functions_t.html" %}
+
+{% block subCategoryMain %}
+
+<div id="stalePageContent">
+    <h5><b><font color="blue"><u>Category</u> </font></b>: <label> <i>{{ category }} </i></label></h5>
+
+
+ <div id="subCategoryAddFromDisp" style="display:block;">
+<form id="subCategoryAddForm" method="POST">
+<table >
+<tr>
+    <td>
+        <label><b><font color="blue"><u> Enter New Sub category</u> </font></b></label>  <input type="text" name="subcategory" maxlength="50" size="50" id ="subcategory"  value="" required>
+    </td>
+</tr>
+    <tr>
+    <td align="center"><br>
+        <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:addSubCategory();return false;" >Submit</button>
+        <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+        <input type ='hidden' id ="orgCode"  name="orgCode"   value='{{orgCode}}' />
+        <input type ='hidden' id ="categoryId"  name="categoryId"   value='{{categoryId}}' />
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <div id="subcategoryDisp"> </div>
+    </td>
+</tr>
+</table>
+</form>
+</div>
+
+ {% if showModifyForm == 1 %}
+    <div id="subCategoryModFromDisp" style="display:block;">
+<form id="subCategoryModForm" method="POST" action="/replies/categories/subcategories/modify">
+<table >
+<tr>
+    <td>
+        <label> <font color="blue">Modify Sub category</font></label>  <input type="text" value="{{ subcategory }}" name="subcategory" maxlength="50" size="50" id ="mod_subcategory"  value="" required>
+    </td>
+</tr>
+    <tr>
+    <td align="center"><br>
+        <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:modifySubCategory();return false;" >Submit</button>
+        <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+        <input type ='hidden' id ="orgCode"  name="orgCode"   value='{{orgCode}}' />
+        <input type ='hidden' id ="categoryId"  name="categoryId"   value='{{categoryId}}' />
+        <input type ='hidden' id ="op"  name="op"   value='ModShow' />
+        <input type ='hidden' id ="subCategoryId"  name="subCategoryId"   value='{{ subCategoryId }}' />
+    </td>
+    </tr>
+    <tr>
+    <td>
+        <div id="subcategoryDisp"> </div>
+    </td>
+</tr>
+</table>
+</form>
+</div>
+
+ {% endif %}
+
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>sub category</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for subCategory in subCategories %}
+      <tr>
+         <td>
+           {{ subCategory.subCategory }}
+
+         </td>
+          <td>
+              |  <a href="/replies/categories/subcategories/modify?op=ModShow&subCategoryId={{ subCategory.subCategoryId }}&categoryId={{ categoryId }}&orgCode={{orgCode}}" class="btn btn-success">Modify</a>  |
+          <a href="/replies/categories/subcategories/delete?op=Del&subCategoryId={{ subCategory.subCategoryId }}&categoryId={{ categoryId }}&orgCode={{orgCode}}" class="btn btn-danger">Delete</a> |
+          </td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+
+    </div>
+{% endblock %}

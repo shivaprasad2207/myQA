@@ -1,0 +1,35 @@
+<div class="jumbotron text-center log-section" >
+<div class="clear-top">
+<form class = "form-horizontal" role ="form"   method="POST" action="/user/search/">
+    <div class = "form-group">
+      <label class = "col-sm-3 control-label">Select Search in</label>
+      <div class = "col-sm-1">
+          <select  name="searchField" id="searchField" >
+              <option value="firstName"> First Name   </option>
+              <option value="lastName">  Last Name</option>
+              <option value="phone"> Phone  </option>
+              <option value="adress"> address  </option>
+              <option value="userEmail"> Email  </option>
+              <option value="userRole"> Role   </option>
+          </select>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-3 control-label">Add search word</label>
+      <div class = "col-sm-3">
+         <input type = "text" class = "form-control" name="searchString"  id ="searchString" placeholder = "Enter search word" required>
+      </div>
+   </div>
+
+     <div class = "form-group">
+        <div class = "col-sm-5">
+    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+    <input type ='hidden' id ="orgCode"  name="orgCode"   value='{{orgCode}}' required/>
+    <button type="submit" id="subButton" class="btn btn-primary"  >Submit</button>
+        </div>
+    </div>
+
+</form>
+</div>
+</div>

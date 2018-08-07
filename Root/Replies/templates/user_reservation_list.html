@@ -1,0 +1,64 @@
+{% extends "manage_users.html" %}
+
+<style>
+td {
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+table {
+  table-layout: fixed;
+}
+
+</style>
+
+{% block userSection %}
+<div id="stalePageContent">
+    <p>First Name : <font color="blue"><b> {{ user.firstName }}  </b></font>  </p>
+    <p>Last Name : <font color="blue"><b> {{ user.lastName }}  </b></font>  </p>
+    <p>Email : <font color="blue"><b> {{ user.email }}  </b></font>  </p>
+    <p>Phone : <font color="blue"><b> {{ user.phone }}  </b></font>  </p>
+    <p>Address : <font color="blue"><b> {{ user.adress }}  </b></font>  </p>
+
+
+<br>
+<div class="clear-top">
+  <table class="table table-hover" border="1">
+    <thead>
+      <tr>
+        <th><u>Book Name</u></th>
+          <th><u>Book Code</u></th>
+          <th><u>Reserved Date</u></th>
+          <th><u>From </u></th>
+          <th><u>To</u></th>
+          <th align="center" style="text-align:center"><u>Actions</u></th>
+
+      </tr>
+    </thead>
+    <tbody>
+    {% for reservation in reservations %}
+      <tr>
+          <td ><font size="3">{{ reservation.bookName}}</font></td>
+          <td ><font size="3">{{ reservation.bookCopyCode}}</font></td>
+          <td><b><font size="3">{{ reservation.dateReserved}}</font></b></td>
+          <td><b><font size="3">{{ reservation.dateFrom}}</font></b></td>
+          <td><b><font size="3">{{ reservation.dateTo}}</font></b></td>
+           <td>
+              <form action="/reserve/bookCopy/delete" method="GET">
+                    <input type="hidden" name="bookCopyCode" value="{{ reservation.bookCopyCode }}" />
+                    <input type="hidden" name="bookCopyId" value="{{ reservation.bookCopyId }}" />
+                    <input type="hidden" name="bookId" value="{{ reservation.bookId }}" />
+                     <input type="hidden" name="reservationId" value="{{ reservation.reservationId }}" />
+                     <input type="hidden" name="userInfoId" value="{{ userInfoId }}" />
+                     <input type="hidden" name="redirect" value="to_user" />
+                  <input type="hidden" name="userAuthId" value="{{ userAuthId }}" />
+                    <button type="submit" id="subButton2" class="btn btn-danger">Delete</button>
+              </form>
+          </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+</div>
+
+{% endblock %}

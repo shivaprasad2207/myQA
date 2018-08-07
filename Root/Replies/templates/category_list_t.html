@@ -1,0 +1,33 @@
+
+{% extends "categories_functions_t.html" %}
+
+{% block categoryList %}
+<div id="stalePageContent">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for category in categories %}
+      <tr>
+         <td>
+            <a href="/replies/categories/subcategories/add?categoryId={{ category.categoryId }}&orgCode={{ category.orgCode }}">
+           {{ category.category }} <i class="fa fa-hand-o-left"></i>
+            </a>
+         </td>
+          <td>
+              |  <a href="/replies/categories/modify?categoryId={{ category.categoryId }}&orgCode={{ category.orgCode }}" class="btn btn-success">Modify</a>  |
+              <a href="/replies/categories/delete?categoryId={{ category.categoryId }}&orgCode={{ category.orgCode }}" class="btn btn-danger"> Delete </a> |
+          </td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+{% endblock %}

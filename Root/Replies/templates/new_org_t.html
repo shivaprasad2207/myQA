@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block login %}
+
+<nav class="navbar navbar-inverse main-nav">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+</nav>
+
+<div class="jumbotron text-center log-section" >
+<div class="clear-top">
+<form class = "form-horizontal" role = "form" id="newOrgReg">
+
+     <div class = "form-group">
+      <label class = "col-sm-2 control-label">Organisation name</label>
+      <div class = "col-sm-5">
+         <input type = "text" class = "form-control" name="orgName"  id ="orgName" placeholder = "Enter Organisation Name" required>
+      </div>
+   </div>
+
+
+    <div class = "form-group">
+      <label class = "col-sm-2 control-label">Organisation Adress</label>
+      <div class = "col-sm-5">
+          <textarea class="form-control" rows="5"  name="orgAddress" id="orgAddress"></textarea>
+      </div>
+   </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-2 control-label">Your user name</label>
+      <div class = "col-sm-5">
+         <input type = "text" class = "form-control" name="userName"  id ="userName" placeholder = "Enter Your user Name " required>
+      </div>
+   </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-2 control-label">Your Email</label>
+
+      <div class = "col-sm-5">
+         <input type = "text" class ="form-control" id ="userEmail" name="userEmail" placeholder = "Enter your EMail" required>
+      </div>
+   </div>
+
+
+   <div class = "form-group">
+      <label for = "inputPassword" class = "col-sm-2 control-label">Password</label>
+
+      <div class = "col-sm-5">
+         <input type = "password" class = "form-control" id="password1" name="password1" placeholder = "Enter Your Password" required>
+      </div>
+   </div>
+
+    <div class = "form-group">
+      <label for = "inputPassword" class = "col-sm-2 control-label">Confirm Password</label>
+
+      <div class = "col-sm-5">
+         <input type = "password" class = "form-control" id="password2" name="password2" placeholder = "Confirm Your Password" required>
+          <span id='message'></span>
+      </div>
+   </div>
+
+    <div class = "form-group">
+        <div class = "col-sm-5">
+    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:registerNewOrg();return false;" >Submit</button>
+        </div>
+    </div>
+
+</form>
+</div>
+    <div id="disp">
+
+    </div>
+
+
+    <div class="text-center" >
+    <div class = "form-group">
+      <div class = "col-sm-5">
+         <a href="/replies/login/"> <u> Login </u></a>
+      </div>
+     </div>
+       </div>
+
+</div>
+{% endblock %}

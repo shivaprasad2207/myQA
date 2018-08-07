@@ -1,0 +1,100 @@
+
+{% include "home_t.html" %}
+{% block content %}
+
+
+{% if section == 'SHOW_REPLY_ADD_FORM' %}
+
+<div class="jumbotron text-center log-section" >
+     <div id="message"> </div>
+<div class="clear-top">
+<form class = "form-horizontal" role = "form" id="userRegForm">
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Select Category</label>
+      <div class = "col-sm-5">
+          <select  onchange="javascript:getSubCategoryOfCategory();return false;" id="categoryId">
+               <option value="-1">   </option>
+            {% for category in categories %}
+              <option value="{{category.categoryId }}"> {{ category.category }} </option>
+            {% endfor %}
+          </select>
+     </div>
+    </div>
+
+    <div id="showSubCategory">
+
+    </div>
+
+    <div id="showRemainings">
+
+    </div>
+
+</form>
+</div>
+</div>
+
+{% endif %}
+
+
+
+{% if section == 'SHOW_BOOK_MOD_FORM' %}
+<form action="/book/modify/" method="POST">
+   <div class = "form-group">
+      <label class = "col-sm-4 control-label">Book Name</label>
+      <div class = "col-sm-5">
+        <input type ="text" class ="form-control" id="bookName" name="bookName" value="{{ bookName }}" required>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Author/Authors Name</label>
+      <div class = "col-sm-5">
+        <input type ="text" class ="form-control" id="author" name="author" value="{{ author }}" required>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Publisher</label>
+      <div class = "col-sm-5">
+         <input type ="text" class ="form-control" id="publisher" name="publisher" value="{{ publisher }}" required>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">ISBN</label>
+      <div class = "col-sm-5">
+        <input type ="text" class ="form-control" id="isbn" name="isbn" value="{{ isbn }}" required>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Remarks</label>
+      <div class = "col-sm-5">
+        <input type ="text" class ="form-control" id="remark" name="remark" value="{{ remark }}" required>
+     </div>
+    </div>
+
+    <div class = "form-group">
+      <label class = "col-sm-4 control-label">Is CD enclosed</label>
+      <div class = "col-sm-5">
+             <select id="is_cd">
+                 <option value="YES"> YES </option>
+                 <option value="NO">  NO </option>
+             </select>
+     </div>
+    </div>
+
+    <div class = "form-group">
+        <div class = "col-sm-5">
+    <input type='hidden' id="csrfmiddlewaretoken" name='csrfmiddlewaretoken' value='{{csrfmiddlewaretoken}}' />
+            <input type='hidden' id="bookId" name='bookId' value='{{bookId}}' />
+    <button type="submit" id="subButton" class="btn btn-primary" onclick="javascript:addBook();return false;" >Submit</button>
+        </div>
+    </div>
+
+</form>
+
+{% endif %}
+
+{% endblock %}

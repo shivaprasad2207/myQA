@@ -1,0 +1,75 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+<nav class="navbar navbar-inverse main-nav">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+      <div class="collapse navbar-collapse  main-nav" id="myNavbar">
+        <ul class="nav navbar-nav navbar-center">
+          <li>
+              <a class="nav-a" href="/replies/main/">Home</a>
+          </li>
+
+            {% if userRole == 0 %}
+            <li>
+                <div class="dropdown">
+        <button class="dropbtn">Admin</button>
+         <div class="dropdown-content">
+            <a href="/replies/categories/show">categories</a>
+            <a href="/replies/users/">Users</a>
+         </div>
+       </div>
+
+            </li>
+            {% endif %}
+        <li>
+            <div class="dropdown">
+        <button class="dropbtn">Replies</button>
+         <div class="dropdown-content">
+            <a href="/replies/reply/start" >Add</a>
+            <a href="/replies/reply/subject/list">show</a>
+         </div>
+       </div>
+        </li>
+
+        <li>
+            <p class="navbar-text" align="center"><font color="blue" size="4"><b> <i> {{ orgName }}</i></b> </font> </p>
+        </li>
+
+
+      <li>
+
+
+      </li>
+        </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+                 <form class="form-inline" action="/replies/reply/subject/search">
+                    <input class="form-control mr-sm-2" type="search" name="search" id="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                 </form>
+
+        </li>
+        <li><p class="navbar-text"> <font color="white" size="1">Welcome.. {{ userName }}</font></p></li>
+        <li><a href="/replies/logout/"> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+{% block navigation %}
+
+
+</div>
+
+
+{% endblock %}
+{% endblock %}
+
